@@ -1,0 +1,66 @@
+/* Header */
+
+header {
+  background-color: #2e5c52;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image */
+
+.java img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+/* Image */
+
+footer {
+  background-color: #6c7899;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Navigation */
+nav {
+  background-color: #1e3d37;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav b {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px 20px;
+}
+
+.lists-container section {
+  flex: 1;
+  padding: 20px;
+}
+.lists-container section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f4f6f8;
+}

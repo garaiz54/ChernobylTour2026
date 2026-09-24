@@ -1,0 +1,93 @@
+/* General Layout & Page Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #2e5c52;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+  background-color: #1e3d37;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav  {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Flexbox Layout for the Two Lists */
+.lists-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap; /* Keeps it responsive on smaller screens */
+}
+
+.lists-container section {
+  flex: 1;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.lists-container ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/* Media Elements (Video, Image & Map) */
+iframe, 
+.java img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+iframe {
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: #6c7899;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
