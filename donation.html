@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chernobyl Tour 2026: educational tour website demo.">
+  <title>Donations | Chernobyl Tour 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">EXCLUSION ZONE • VISITOR INFORMATION</p>
+      <h1>Chernobyl Tour <span>2026</span></h1>
+      <p>Explore history. Understand the risks. Respect the Zone.</p>
+    </div>
+  </header>
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner"><a href="index.html">Home</a><a href="video&map.html">Videos & Map</a><a
+        href="Items.html">Souvenirs</a><a href="donation.html" aria-current="page">Donations</a><a href="Form.html">Sign
+        Up</a></div>
+  </nav>
+  <main class="container">
+    <section class="page-intro">
+      <p class="eyebrow">SUPPORT OUR MISSION</p>
+      <h2>Make a Donation</h2>
+      <p>Your support helps this educational tour project share the history of the exclusion zone.</p>
+    </section>
+    <section class="form-card">
+      <h3>Donation form demo</h3>
+      <p class="muted">No payment is collected.</p>
+      <form id="donationForm">
+        <div class="field"><label for="fullName">Full name</label><input id="fullName" name="fullName"
+            autocomplete="name" required></div>
+        <div class="field"><label for="donationEmail">Email</label><input type="email" id="donationEmail" name="email"
+            autocomplete="email" required></div>
+        <div class="field"><label for="amount">Donation amount</label><select id="amount" name="amount" required>
+            <option value="10">$10</option>
+            <option value="25">$25</option>
+            <option value="50" selected>$50</option>
+            <option value="100">$100</option>
+          </select></div>
+        <div class="field"><label for="payment">Payment method </label><select id="payment"
+            name="payment">
+            <option value="credit">Credit / debit</option>
+            <option value="paypal">PayPal</option>
+          </select></div>
+        <div class="field"><label for="message">Message (optional)</label><textarea id="message" name="message"
+            rows="3"></textarea></div><button type="submit" class="btn">Submit demo donation</button>
+        <p id="donationStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2>Visitor information</h2>
+        <p>Demo site · Address: 135 N Main St<br>Phone: 609-xxx-xxxx · Email: Example@email.com</p>
+      </div>
+      <div>
+        <h2>Hours</h2>
+        <p>Mon–Fri: 8 AM–6 PM<br>Saturday: 9 AM–5 PM<br>Sunday: 10 AM–4 PM</p>
+      </div>
+      <div>
+        <h2>Social</h2>
+        <p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a> · <a
+            href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="cursor.js" defer></script>
+  <script src="donation.js" defer></script>
+</body>
+
+</html>
